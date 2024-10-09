@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="estilos.css"></script>
+    <title>Club Atletico Boca Juniors</title>
+</head>
+<body>
+<!-- creo una pagina q sea un sistema, de un club de futbol donde tnga un form donde cargar los jugadores con sus datos (nombre, apellido, dni,posicion, talle botines) -->
+    <header>
+        <nav>
+            <li><a href="index.html">Menú</a></li>
+            <li><a href="">Jugadores</a></li>
+        </nav>
+    </header>
+
+    <div id="inscripcion">
+        <label for="">DNI</label>
+        <input type="number" name="" id="inpdni">
+        <label for="">Nombre</label>
+        <input type="text" name="" id="inpnombre">
+        <label for="">Apellido</label>
+        <input type="text" name="" id="inpapellido">
+        <label for="">Posicion</label>
+        <select name="" id="inpposicion">
+            <option value="Arquero">Arquero</option>
+            <option value="Defensor">Defensor</option>
+            <option value="Mediocampista">Mediocampista</option>
+            <option value="Delantero">Delantero</option>
+            <option value="Capitan">Capitan</option>
+        </select>
+        <label for="">Talle</label>
+        <input type="number" name="" id="inptalle">
+        <button id="btncargar">Cargar</button>
+    </div>
+
+
+    <table id="listajugadores">
+        <tr>
+            <th>DNI</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Posicion en la q juega</th>
+            <th>Talle botin</th>
+        </tr>
+    </table>
+
+<script src="funcion.js"></script>
+
+
+</body>
+</html>
